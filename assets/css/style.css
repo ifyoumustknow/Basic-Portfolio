@@ -1,34 +1,73 @@
 body {
-    background-color: white;
+    background-color:#7777; 
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-section {
-    text-align: center;
-    background-color: white;
+header {
+    height: 100px;
+    background-color: whitesmoke;
+    border-bottom:2px solid rgba(55, 55, 55, 0.467);
 }
 
 Nav {
-    width:100%;
-}
-aside {
-    text-align: left;
-    width: 90px;
-    padding:40px;
-    margin-left: 150px;
-    background-color: #333
+    width: 960px;
+    height: 100px;
+    margin: auto auto auto auto;
+    padding: 0px ;
+    background-color:whitesmoke;
+
 }
 
-Article{
-    background-color:
-}
-
-h1 {
+li {
+    list-style: none;
+    padding: 0px;
+    float: right;
     color: white;
-    font-family: Arial, Helvetica, sans-serif
-}
-#main {
-    text-align: center;
-    width: 0 auto
-    margin: 0 auto
+    margin: 30px 20px auto auto;
+    font-size: 9pt;
 }
 
+a {
+    display: block;
+    padding: 10px;
+    
+}
+
+h2 {
+    padding-top: 30px;
+    padding-left:30px;
+}
+
+p {
+    padding-left:30px;
+    padding-bottom: 10px;
+}
+
+
+Section {
+    width: 960px;
+    height: 200px;
+    position: center;
+    margin: 0 auto;
+    padding: 0px ;
+    background-color: whitesmoke;
+}
+#blue-box {
+    float: left;
+    background-color: black;
+    width: 150px;
+    height: 100%;
+    margin-top: 0;
+    padding: 0;
+    font-size: 20pt;
+}
+
+#white {
+    text-justify: center;
+    color: white;
+    margin-top: 15%;
+    margin-left: 25px;
+    font-size: 18px;
+}
