@@ -24,11 +24,32 @@ li {
     list-style: none;
     padding: 0px;
     float: right;
-    color: white;
+    color: gray;
     margin: 30px 20px auto auto;
     font-size: 9pt;
 }
 
+section {
+    width: 960px;
+    position: center;
+    margin: 5px auto;
+    margin-bottom: 30px;
+    padding: 0px ;
+    background-color: whitesmoke;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    margin-top: 30px;
+    border-top:10px solid rgba(92, 92, 92, 0.467);
+    color: white;
+    text-align: center;
+    font-size: 6pt;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 a {
     display: block;
     padding: 10px;
@@ -36,24 +57,16 @@ a {
 }
 
 h2 {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left:30px;
 }
 
 p {
     padding-left:30px;
-    padding-bottom: 10px;
+    font-size:12pt;
+    width: 900px;
 }
 
-
-Section {
-    width: 960px;
-    height: 200px;
-    position: center;
-    margin: 0 auto;
-    padding: 0px ;
-    background-color: whitesmoke;
-}
 #blue-box {
     float: left;
     background-color: black;
@@ -70,4 +83,11 @@ Section {
     margin-top: 15%;
     margin-left: 25px;
     font-size: 18px;
+}
+
+#hor-line {
+    width: 900px;
+    height: 1px;
+    margin: 1px 0 0 30px;
+    background-color:black;
 }
