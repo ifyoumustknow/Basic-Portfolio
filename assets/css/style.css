@@ -2,7 +2,6 @@ body {
     background-color:#7777; 
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 header {
@@ -17,7 +16,6 @@ Nav {
     margin: auto auto auto auto;
     padding: 0px ;
     background-color:whitesmoke;
-
 }
 
 li {
@@ -25,69 +23,119 @@ li {
     padding: 0px;
     float: right;
     color: gray;
-    margin: 30px 20px auto auto;
-    font-size: 9pt;
+    margin: 30px 20px 0 0;
+    font-size: 9pt auto;
 }
 
 section {
     width: 960px;
-    position: center;
-    margin: 5px auto;
-    margin-bottom: 30px;
-    padding: 0px ;
-    background-color: whitesmoke;
+    height: 600px;
+    margin: 20px auto;
+    padding-bottom: 30px;
+    background: whitesmoke;
 }
 
 footer {
-    height: 100px;
     background-color: black;
-    margin-top: 30px;
+    margin-top: 50px;
+    height: 100px;
     border-top:10px solid rgba(92, 92, 92, 0.467);
     color: white;
     text-align: center;
-    font-size: 6pt;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    font-size: 10pt auto;
 }
+
 a {
     display: block;
-    padding: 10px;
-    
+    padding: 20px;
+    text-align: center;
+}
+
+aside {
+    /* display:block; */
+    float: left;
+    background-color: whitesmoke;
+    width: 250px;
+}
+
+h1 {
+    display: block;
+    padding: 20px;
+    text-align: center;
 }
 
 h2 {
     padding-top: 20px;
-    padding-left:30px;
+    margin-left: 30px;
 }
 
 p {
-    padding-left:30px;
-    font-size:12pt;
-    width: 900px;
+    font-size:12pt auto;
 }
 
-#blue-box {
+form {
+    float: left;
+    /* height: 500px; */
+    padding: 30px;
+    margin:0;
+    background: whitesmoke;
+}
+
+.blue-box {
+    text-justify: center;
     float: left;
     background-color: black;
     width: 150px;
     height: 100%;
-    margin-top: 0;
-    padding: 0;
-    font-size: 20pt;
 }
 
-#white {
-    text-justify: center;
-    color: white;
-    margin-top: 15%;
-    margin-left: 25px;
-    font-size: 18px;
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
-#hor-line {
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+    bottom: 0px;
+}
+
+.content-wrap {
+     padding-bottom: 0px;
+ }
+
+.hor-line {
     width: 900px;
     height: 1px;
     margin: 1px 0 0 30px;
     background-color:black;
 }
+
+.vert-line {
+    float:left;
+    border-left: 1px solid black;
+    margin: 15px 0 0 ;
+    height: 500px;
+}
+
+.text-wrap {
+    width: 890px;
+    margin:30px auto;
+}
+
+.white {
+    text-justify: center;
+    color: white;
+    font-size: 20px;
+    margin:10% auto;
+
+}
+ 
+.port_image {
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 244px;
+}
+
