@@ -1,12 +1,12 @@
 body {
-    background-color:#7D887A; 
+    background-color:#275a53; 
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     height: 100px;
-    background-color: whitesmoke;
+    background-color: #f5f0e3;
     border-bottom:2px solid black;
 }
 
@@ -15,7 +15,7 @@ Nav {
     height: 100px;
     margin: auto auto auto auto;
     padding: 0px ;
-    background-color:whitesmoke;
+    /* background-color:whitesmoke; */
 }
 
 li {
@@ -29,7 +29,7 @@ li {
 
 section {
     width: 960px;
-    height: 600px;
+    /* height: 600px; */
     margin: 20px auto;
     padding-bottom: 30px;
     background: whitesmoke;
@@ -66,6 +66,8 @@ h1 {
 h2 {
     padding-top: 20px;
     margin-left: 30px;
+    font-size: 14pt;
+    color: #e3492B;
 }
 
 p {
@@ -84,6 +86,13 @@ input {
     font-size: 12pt;
 }
 
+.section-wrap {
+    width:960px;
+    height:600px;
+}
+
+
+
 .input-size {
     width: 600px;
     height: 300px;
@@ -96,7 +105,7 @@ input {
 .blue-box {
     text-justify: center;
     float: left;
-    background-color:#383838;
+    background-color:#f8c765;
     width: 150px;
     height: 100%;
 }
@@ -138,7 +147,7 @@ input {
 
 .white {
     text-justify: center;
-    color: white;
+    color: #e3492B;
     font-size: 20px;
     margin:10% auto;
 
