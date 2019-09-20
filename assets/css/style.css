@@ -1,5 +1,5 @@
 body {
-    background-color:#7777; 
+    background-color:#7D887A; 
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -7,7 +7,7 @@ body {
 header {
     height: 100px;
     background-color: whitesmoke;
-    border-bottom:2px solid rgba(55, 55, 55, 0.467);
+    border-bottom:2px solid black;
 }
 
 Nav {
@@ -46,22 +46,21 @@ footer {
 }
 
 a {
-    display: block;
     padding: 20px;
     text-align: center;
 }
 
 aside {
-    /* display:block; */
     float: left;
     background-color: whitesmoke;
-    width: 250px;
+    margin: 30px;
 }
 
 h1 {
     display: block;
     padding: 20px;
     text-align: center;
+    font-size: 30pt;
 }
 
 h2 {
@@ -75,16 +74,29 @@ p {
 
 form {
     float: left;
-    /* height: 500px; */
     padding: 30px;
-    margin:0;
     background: whitesmoke;
+}
+
+input {
+    width: 600px;
+    /* height: 30px; */
+    font-size: 12pt;
+}
+
+.input-size {
+    width: 600px;
+    height: 300px;
+    margin-top: 0px;
+    font-size: 12pt;
+    text-align: initial;
+    color:grey;
 }
 
 .blue-box {
     text-justify: center;
     float: left;
-    background-color: black;
+    background-color:#383838;
     width: 150px;
     height: 100%;
 }
@@ -94,7 +106,6 @@ form {
     bottom: 0px;
     width: 100%;
 }
-
 
 .page-container {
     position: relative;
@@ -136,6 +147,47 @@ form {
 .port_image {
     margin-left: 30px;
     margin-top: 20px;
-    height: 244px;
+    height: 350px;
+  
 }
 
+.aside-text {
+    font-size: 10pt;
+}
+
+.position-center{
+    margin: 0px 30px 30px 30px;
+    width: 130px;
+    height: 100%;
+} 
+
+.fixed-box1 {
+    position: absolute;
+    background:  rgba(255, 225, 0, 0.9);
+    margin: 200px 55px;
+    height: 32px;
+    width: 150px;
+}
+
+.fixed-box2 {
+    position: absolute;
+    text-align: auto;
+    background:  rgba(255, 225, 0, 0.9);
+    margin: 200px 45px;
+    height: 32px;
+    width: 230px;
+}
+
+.fixed-box3 {
+    position: absolute;
+    background: rgba(255, 225, 0, 0.9);
+    margin: 200px 55px;
+    height: 28px;
+    width: 150px;
+
+}
+
+#text-area {
+    color: lightgray;
+    padding: 20px;
+}
