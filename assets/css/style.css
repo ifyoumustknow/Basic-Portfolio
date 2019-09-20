@@ -164,26 +164,33 @@ input {
 .fixed-box1 {
     position: absolute;
     background:  rgba(255, 225, 0, 0.9);
-    margin: 200px 55px;
+    margin: 180px 55px;
     height: 32px;
     width: 150px;
+    border-radius:100px;
 }
 
 .fixed-box2 {
     position: absolute;
     text-align: auto;
     background:  rgba(255, 225, 0, 0.9);
-    margin: 200px 45px;
+    margin: 180px 45px;
     height: 32px;
     width: 230px;
+    border-radius:100px;
+}
+
+.background {
+    background:green;
 }
 
 .fixed-box3 {
     position: absolute;
     background: rgba(255, 225, 0, 0.9);
-    margin: 200px 55px;
+    margin: 180px 55px;
     height: 28px;
     width: 150px;
+    border-radius:100px;
 
 }
 
@@ -191,3 +198,4 @@ input {
     color: lightgray;
     padding: 20px;
 }
+
