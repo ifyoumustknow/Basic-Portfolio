@@ -203,6 +203,10 @@ input {
 
 }
 
+.image {
+    width:900px;
+    margin:0px 20px 0px 30px;
+}
 #text-area {
     color: lightgray;
     padding: 20px;
